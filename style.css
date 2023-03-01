@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:wght@700&family=Babylonica&family=Calistoga&family=DynaPuff:wght@400;600&family=Itim&family=Michroma&family=Poppins:wght@300&display=swap');
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    background: url(https://jooinn.com/images/color-background-5.png);
+}
+
+#navv {
+    color: aliceblue;
+}
+
+.nav-item {
+    font-family: itim;
+    font-size: 1.5rem;
+}
+
+.main {
+    background: url(https://jooinn.com/images/color-background-5.png) fixed repeat-y;
+    height: auto;
+    width: auto;
+    /* overflow-x: hidden; */
+}
+
+.main-top {
+    color: aliceblue;
+    background-color: #fbfbfb48;
+    border-radius: 2.5rem;
+    height: auto;
+    width: 80vw;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: itim;
+    font-size: x-large;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#logo {
+    height: 12rem;
+    width: 15rem;
+}
+
+.temp {
+    font-family: michroma;
+    font-size: 120px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    margin-right: 1rem;
+    height: 3rem;
+    width: 2.5rem;
+}
+
+#loc {
+    font-family: Calistoga;
+}
+
+.main-bottom {
+    color: aliceblue;
+    background-color: #fbfbfb48;
+    border-radius: 2.5rem;
+    height: auto;
+    width: auto;
+}
+
+.main-bottom h1 {
+    font-family: Calistoga;
+    text-align: center;
+}
+.mbc h2{
+    font-family: itim;
+}
+.col {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    height: 100px;
+    width: auto;
+    background: url(https://jooinn.com/images/color-background-5.png);
+    color: aliceblue;
+    font-family: itim;
+}
+.foot{
+    margin-top: 0px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .main-top{
+        width: auto;
+        margin-left: 50px ;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .two #logo{
+        height: 4.5rem;
+        width: 5.5rem ;
+    }
+    .two .temp{
+        font-size: 60px;
+    }
+    .main-bottom{
+        padding-left: 50px;
+    }
+    .main-bottom .col{
+        display: flex;
+        flex-direction: column;
+    }
+}
